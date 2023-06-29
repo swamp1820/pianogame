@@ -11,8 +11,15 @@ config_version=5
 [application]
 
 config/name="pianogame"
-config/features=PackedStringArray("4.0", "GL Compatibility")
-config/icon="res://icon.svg"
+run/main_scene="res://game.tscn"
+config/features=PackedStringArray("4.0", "C#", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=360
+window/size/viewport_height=640
+window/size/resizable=false
+window/handheld/orientation=1
 
 [dotnet]
 
